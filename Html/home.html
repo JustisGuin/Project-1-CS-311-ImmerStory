@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/ScriptStyle/homeStyle.css">
+    
+    <title>Document</title>
+</head>
+<body class="home-page">
+    <header class="header">
+      <div class="logo">
+        <span>
+          ImmerStory
+        </span>
+      </div>
+      <nav>
+        <a id="home" href="home.html" class="banner">Home</a>
+        <a id="feature" href="features.html">Features</a>
+        <a id="about" href="US.html">About</a>
+
+      </nav>
+      <a class="join-now" href="#contact">Join Now</a>
+    </header>
+    <div class="main-content">
+      <div class="content">
+        <h1>A Comic Revolution</h1>
+        <p>Unleash your creativity and collaborate with fellow comic artists!</p>
+        <a class="get-started" href="#about-section">Get Started</a>
+      </div>
+    </div>
+
+    <div class="about-page" id="about-section">
+        <div class="container">
+            <h1>Comic Questions! </h1>
+            <div class="faq-item" onclick="toggleFaq(this)">
+                <span>What is this site?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-content">
+                <p>The site will primarily focus on displaying comic books piece by piece, allowing the illustrations to flow at the users preferred speed. 
+                    The soundtracks will be programmed to progress and change as the story goes on. 
+                    Users may select the official soundtrack, or choose from an array of audio submitted by other users. 
+                    This benefits everyone by providing more options for readers and offers exposure for audio engineers.
+                </p>
+            </div>
+    
+            <div class="faq-item" onclick="toggleFaq(this)">
+                <span>How will accounts work?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-content">
+                <p>There will be individual accounts for people to sign into to save their favorite books and/or audio projects.
+                    Users may follow popular authors and see what's new, and allow popular contributors to provide suggestions for other books and soundtracks.
+                </p>
+            </div>
+    
+            <div class="faq-item" onclick="toggleFaq(this)">
+                <span>Future Features</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-content">
+                <p>Future features may include soundtracks by famed composers included with a premium subscription, as well as illustrations by popular users for books that leave more to the imagination than desired. </p>
+            </div>
+    
+            <div class="faq-item" onclick="toggleFaq(this)">
+                <span>What formats can I upload?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-content">
+                <p>You can upload comics in various formats including JPEG, PNG, and PDF.</p>
+            </div>
+    
+            <div class="faq-item" onclick="toggleFaq(this)">
+                <span>What type of tools will the website have?</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-content">
+                <p>The site will have tools for authors that help split apart the individual scenes of the comic books, such as a snipping/cropping tool integrated inside the editor.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h1>Get updated when we release</h1>
+        <form method="post" action="https://script.google.com/macros/s/AKfycby9EdGm_RGX4rKxkM7otTngO0ZZ2mb0ISF9YibETOFE8XfBN2Ebfuv5bt6OB7Gsfh0uWQ/exec" name="contact-form">
+            <div class="form-row">
+                <input type="text" name="name" placeholder="Name" id="name-input">
+                <label for="name-input" class="animated-label"></label>
+            </div>
+            <div class="form-row">
+                <input type="email" name="email" placeholder="Email" id="email-input">
+                <label for="email-input" class="animated-label"></label>
+            </div>
+            <div class="form-row">
+                <input  name="phone" placeholder="Phone" id="phone-input">
+                <label for="phone-input" class="animated-label"></label>
+            </div>
+    
+            <!-- Not working correctly -->
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <button>Send!</button>
+        </form>
+    </div>
+
+</body>
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2024 ImmerStory. All rights reserved.</p>
+<script src="../ScriptStyle/script.js"></script>
+</html>

@@ -1,0 +1,705 @@
+/* <p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p> */
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow' ;
+    scroll-behavior: smooth;    
+}
+ .header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Barlow';
+}
+ .header .logo {
+    display: flex;
+    align-items: center;
+}
+.header .logo img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+ .header .logo span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.header nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+ .header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.header nav a:hover{
+  font-weight: bold;
+  color: red; 
+  font-size: x-large;
+}
+
+.header nav a:active-link, .header nav a:focus{
+  font-size: x-large;
+  color: red;
+  font-weight: bold;
+}
+
+
+.header .join-now {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+.home-page .main-content {
+    background-image: url("../img/comic-book-background-a09lfl6egxpsqgwc.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    font-family: "Barlow";
+    padding-right: 10px
+}
+.home-page .main-content .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.home-page .main-content .content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+.home-page .main-content .content p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+.home-page .main-content .content .get-started {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.about-page {
+    background-color: #FAECD2;
+    
+}
+
+.about-page h1{
+    font-family: "Barlow";
+    padding-right: 10px;
+    
+}
+
+.about-page body {
+    font-family: "Barlow";
+    background-color: #f9e4bc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+.about-page .container {
+    text-align: center;
+    width: 100%;
+    max-width: 900px; 
+    margin: 0 auto;
+    padding-top: 10em; 
+    padding-bottom: 20em; 
+    width: 900px;
+
+}
+.about-page h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about-page .faq-item {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 30px;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Barlow";
+}
+.about-page.faq-item i {
+    font-size: 1.2em;
+
+}
+.about-page .faq-content {
+    display: none;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "Barlow";
+}
+.about-page .faq-content.show {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    justify-content: center;
+    background-color: #FAECD2;
+}
+
+.contact h1 {
+    margin-bottom: 20px;
+}
+
+.contact .form-row {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.contact .form-row input {
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 100px;
+}
+
+.contact .form-row label.animated-label {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 16px;
+    color: #999;
+}
+
+.contact .form-row input:focus + label.animated-label {
+    top: 10px;
+    font-size: 14px;
+    color: #333;
+    transition: 0.2s ease-in-out;
+}
+
+.contact button {
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact button:hover {
+    background-color: #3e8e41;
+}
+
+.contact .form-row input:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #4CAF50;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+
+
+
+
+/* Author Showcase */
+.author-showcase {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.author-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.author {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.author img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.author h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.author p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.author a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+.author a:hover {
+  color: #3e8e41;
+}
+
+/* Comic Book Library */
+.comic-book-library {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.comic-book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.comic-book {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.comic-book img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.comic-book h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.comic-book p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.comic-book a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+.comic-book a:hover {
+  color: #3e8e41;
+}
+
+/* Community Forum */
+.community-forum {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.forum-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.forum-topic {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.forum-topic h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.forum-topic p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.forum-topic a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+.forum-topic a:hover {
+  color: #3e8e41;
+}
+/* Author Showcase */
+.author-showcase {
+  font-family: 'Barlow' ;
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.author-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.author {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.author img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.author h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.author p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.author a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+.author a:hover {
+  color: #3e8e41;
+}
+
+/* Comic Book Library */
+.comic-book-library {
+    font-family: 'Barlow' ;
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.comic-book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.comic-book {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.comic-book img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.comic-book h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.comic-book p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.comic-book a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+.comic-book a:hover {
+  color: #3e8e41;
+}
+
+/* Community Forum */
+.community-forum {
+  font-family: 'Barlow';
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.forum-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.forum-topic {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.forum-topic h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.forum-topic p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.forum-topic a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+.forum-topic a:hover {
+  color: #3e8e41;
+  
+}   
+
+.austinAbout p, .justisAbout p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #685e5d;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 0 1px #ccc;
+  }
+  
+  .austinAbout {
+    font-family: 'Barlow', sans-serif;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 3px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px #ccc;
+    float: left;
+  }
+
+  .justisAbout{
+    font-family: 'Barlow', sans-serif;
+    width: 50%;
+    padding: 20px;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 5px solid red;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #ccc;
+    float: right;
+
+  }
+  
+  .centerHeadings {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .centerHeadings h1 {
+    font-size: 36px;
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .centerHeadings h2 {
+    font-size: 24px;
+    color: #33475b;
+    margin-bottom: 10px;
+  }
+  
+  .centerHeadings p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .image-container {
+    margin: -100px 0;
+    text-align: center;
+  }
+  
+  .image-container img {
+    height: auto;
+    transform: rotate(-90deg);
+    max-width: 600px;
+    border-radius: 20px;
+  }
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+
+
+.f{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.f body {
+  font-family: "Barlow";
+  line-height: 2;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+
+
+.f main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.f section {
+  background-color: #fff;
+  padding: 2em;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px #333;
+}
+
+.f h1, h2, h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.f p {
+  margin-bottom: 20px;
+}
+
+/* Grid Styles */
+
+.f .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.f .tool, .audio-feature, .control-feature, .interaction-feature, .experience-feature {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 4px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+.f .accessibility-feature {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 4px solid #333; 
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.f .accessibility-feature h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.f .accessibility-feature p {
+  margin-bottom: 20px;
+}
+

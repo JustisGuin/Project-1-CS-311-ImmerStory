@@ -572,6 +572,14 @@ body, html {
     float: right;
 
   }
+
+
+
+  .navs {
+    width: 23%; /* adjust the width to your liking */
+    margin: 0 auto;
+    text-align: center;
+  }
   
   .centerHeadings {
     font-family: 'Barlow', sans-serif;
@@ -626,18 +634,24 @@ footer p {
 }
 
 
-
 .f{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+ 
 }
+
+.f nav{
+  width: 23%; /* adjust the width to your liking */
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 .f body {
   font-family: "Barlow";
   line-height: 2;
   color: #333;
-  background-color: #f9f9f9;
 }
 
 
@@ -650,7 +664,7 @@ footer p {
 }
 
 .f section {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 2em;
   margin-bottom: 20px;
   box-shadow: 0 0 20px #333;
